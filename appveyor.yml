@@ -1,3 +1,4 @@
 image: Visual Studio 2017
 before_build:
+- nuget sources update -Name nuget.org -Source https://api.nuget.org/v3/index.json
 - dotnet restore
