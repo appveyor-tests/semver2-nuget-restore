@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace peoj1
+namespace semver2NugetRestore
 {
     class Program
     {
